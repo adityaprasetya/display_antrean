@@ -31,7 +31,7 @@ class SettingAppModel extends \App\Models\BaseModel
 		// Logo Login
 		$logo_login = $curr_db['logo_login'];
 		// $path = ROOTPATH . 'images/';
-		$path = base_url('images/');
+		$path = 'http://localhost:8082/display_antrean/images/';
 		if ($_FILES['logo_login']['name']) 
 		{
 			//old file
