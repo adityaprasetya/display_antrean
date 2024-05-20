@@ -1,6 +1,4 @@
 <?php
-use PHPImageWorkshop\ImageWorkshop;
-
 function get_filename($file_name, $path) {
 	
 	$file_name_path = $path . $file_name;
@@ -63,6 +61,7 @@ function image_dimension($images, $maxw=null, $maxh=null)
 function save_image($image, $file_type, $w, $h) 
 {
 	// require_once('app/ThirdParty/Imageworkshop/autoload.php');
+	use PHPImageWorkshop\ImageWorkshop;
 	$layer = PHPImageWorkshop\ImageWorkshop::initFromPath($image);
 	$layer->resizeInPixel($w, $h, true);
 	$name_path = pathinfo($image);
