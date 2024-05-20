@@ -23,11 +23,11 @@ class App extends BaseConfig
      * environments.
      */
     // public $baseURL = 'https://jagowebdev.com/demo/admin-template-ci4/';
-    public $baseURL = 'https://simrs.rsudasadepok.id/display_antrean/';
+    public $baseURL = 'http://localhost:8082/display_antrean/';
 
     public $imagesPath = ROOTPATH . '/images/';
     // public $imagesURL = 'https://jagowebdev.com/demo/admin-template-ci4/public/images/';
-    public $imagesURL = 'https://simrs.rsudasadepok.id/display_antrean/';
+    public $imagesURL = 'http://localhost:8082/display_antrean/';
 
     public $checkRoleAction = ['enable_global' => true, 'field' => 'id_user_input'];
 
