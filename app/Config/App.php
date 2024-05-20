@@ -27,7 +27,7 @@ class App extends BaseConfig
 
     public $imagesPath = ROOTPATH . '/images/';
     // public $imagesURL = 'https://jagowebdev.com/demo/admin-template-ci4/public/images/';
-    public $imagesURL = 'http://localhost:8082/display_antrean/';
+    public $imagesURL = 'http://localhost:8082/display_antrean/images/';
 
     public $checkRoleAction = ['enable_global' => true, 'field' => 'id_user_input'];
 
