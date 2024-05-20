@@ -25,7 +25,7 @@ class App extends BaseConfig
     // public $baseURL = 'https://jagowebdev.com/demo/admin-template-ci4/';
     public $baseURL = 'http://localhost:8082/display_antrean/';
 
-    public $imagesPath = ROOTPATH . '/images/';
+    public $imagesPath = ROOTPATH . 'images/';
     // public $imagesURL = 'https://jagowebdev.com/demo/admin-template-ci4/public/images/';
     public $imagesURL = 'http://localhost:8082/display_antrean/images/';
 
