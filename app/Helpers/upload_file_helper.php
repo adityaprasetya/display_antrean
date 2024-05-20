@@ -70,7 +70,7 @@ function save_image($image, $file_type, $w, $h)
 
 function upload_file($path, $file) 
 {
-	$path = FCPATH . 'display_antrean/images/'; 
+	$path = FCPATH . 'images/'; 
 	$new_name =  get_filename(stripslashes($file['name']), $path); ;
 	$move = move_uploaded_file($file['tmp_name'], $path . $new_name);
 	if ($move) 
